@@ -1,0 +1,22 @@
+pip_packages: [
+  'nbconvert',           # Required to setup Export to PDF in Jupyter
+  'ipykernel',           # Required to setup kernel correctly for Jupyter
+  'ipywidgets',
+  'ipympl',              # For interactive matplotlib figures in Jupyter
+  'imagesize',
+  'nb2xls',              # Export Jupyter notebook to excel file
+  'jupyterlab-git'
+]
+
+labextension: [
+  '@jupyter-widgets/jupyterlab-manager',
+  '@jupyterlab/toc',
+  '@jupyterlab/git',
+  '@mflevine/jupyterlab_html',
+  'jupyterlab-spreadsheet',
+  'jupyter-matplotlib'
+]
+
+additional_cmds: [
+  'jupyter serverextension enable --py jupyterlab_git'
+]

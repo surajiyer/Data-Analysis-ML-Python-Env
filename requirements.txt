@@ -1,0 +1,64 @@
+## Basic Data Science packages
+numpy
+scipy
+pandas
+jupyterlab
+xlrd
+pandas-profiling
+pandasql            # For SQL like queries on pandas dataframes
+patsy               # For R like linear formula generator
+fancyimpute         # Various data imputation functions
+scikit-learn
+statsmodels
+mord                # Ordinal regression algorithms
+imbalanced-learn    # ML algorithms for imbalanced datasets
+xgboost
+lightgbm
+distance            # For various distance functions
+dill==0.3.1.1
+tqdm
+progressbar2
+hyperopt            # Bayesian optimization for hyper-parameter tuning
+pyarrow             # For reading parquet files
+fastparquet         # For reading parquet files
+urlclustering
+hdbscan             # hierarchical density-based spatial clustering of applications with noise
+pyyaml              # For loading .yml config files
+
+## Network-Analysis
+graphviz
+# networkx
+
+## Visualization-Packages
+matplotlib>=3.1.1
+seaborn
+plotly
+dash
+dash-daq
+
+## Deep-Learning
+tensorflow
+# tensorflow-gpu
+
+## Web-Server-Tools
+Django
+Flask
+
+## NLP
+nltk
+spacy
+# python-frog
+unidecode
+symspellpy
+fuzzywuzzy
+beautifulsoup4
+
+## Advanced-Scientific-Computing
+Cython
+numba               # Automatic translation of python functions to JIT compiler executable machine code for performance
+
+## Others
+requests
+# line-profiler
+mypy
+pyodbc
